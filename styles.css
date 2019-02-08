@@ -1,0 +1,46 @@
+body {
+  padding-top:20px;
+  padding-bottom: 20px;
+  
+  font-family: 'neue-haas-grotesk-display';
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 100%;
+  max-width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto; 
+  text-align: center;
+}
+
+section.reactive {
+  width: 1240px;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-auto-rows: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: auto;
+  background-color: white;
+  cursor: crosshair;
+  font-size: 70px;
+  line-height: 100px;
+}
+
+.reactive div {
+  font-weight: 100;
+  transform: scale(0.2);
+  -moz-transform: scale(0.2);
+  /* transition: transform 0.45s; */
+}
